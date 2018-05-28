@@ -4,9 +4,38 @@ padding:0;
 }
 
 html{
-  font-family: Helveica sans-serif;
+  font-family: "Helveica", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+
+header{
+  padding-left: 10px;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+}
+
+.logo{
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+}
+
+.logo img{
+  height: 50px;
+}
+
+nav{
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+nav span{
+  display: inline-block;
+  margin: 20px 10px;
+  text-decoration: underline;
 }
