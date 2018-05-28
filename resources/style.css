@@ -3,7 +3,7 @@ margin:0;
 padding:0;
 }
 
-html{
+body{
   font-family: "Helveica", sans-serif;
   font-size: 22px;
   color: seashell;
@@ -11,12 +11,14 @@ html{
   opacity: 0.9;
 }
 
-header{
+.header{
   padding-left: 10px;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
+  background-color: black;
+  z-index: 10;
 }
 
 .logo{
@@ -38,4 +40,27 @@ nav span{
   display: inline-block;
   margin: 20px 10px;
   text-decoration: underline;
+}
+.container{
+  display: flex;
+}
+.mission{
+
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 69px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.mission-text{
+  display:block;
+  background-color: black;
+  height: 70px;
+  width: 1200px;
+
 }
