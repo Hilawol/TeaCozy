@@ -9,6 +9,15 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  overflow: scroll;
+}
+
+h2{
+  margin-bottom: 20px;
+}
+
+a, a:visited {
+    color: inherit;
 }
 
 .header{
@@ -41,11 +50,13 @@ nav span{
   margin: 20px 10px;
   text-decoration: underline;
 }
+
 .container{
   display: flex;
+  flex-wrap: wrap;
 }
-.mission{
 
+#mission{
   justify-content: center;
   align-items: center;
   background-image: url("./images/img-mission-background.jpg");
@@ -54,13 +65,45 @@ nav span{
   position: relative;
   top: 69px;
   text-align: center;
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
 .mission-text{
   display:block;
   background-color: black;
-  height: 70px;
+  height: 90px;
   width: 1200px;
+}
 
+#teas{
+  justify-content:space-around;
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  position:relative;
+  top:69px;
+}
+
+.teas-container{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.teas-text{
+  text-align: center;
+}
+
+.tea-item{
+  flex-direction: column;
+  align-items:center;
+  margin-top: 25px;
+}
+
+.tea-item img{
+  width:300px;
+  height:200px;
+  margin-bottom: 10px;
+  margin-right: 25px;
 }
