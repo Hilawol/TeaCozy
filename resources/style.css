@@ -54,10 +54,10 @@ nav span{
 .container{
   display: flex;
   flex-wrap: wrap;
+  justify-content:center;
 }
 
 #mission{
-  justify-content: center;
   align-items: center;
   background-image: url("./images/img-mission-background.jpg");
   height: 700px;
@@ -76,21 +76,14 @@ nav span{
 }
 
 #teas{
-  justify-content:space-around;
   width: 1000px;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  flex-wrap: wrap;
   position:relative;
   top:69px;
 }
 
-.teas-container{
-  display: flex;
-  justify-content:center;
-  flex-wrap: wrap;
-}
 .teas-text{
   text-align: center;
 }
@@ -106,4 +99,42 @@ nav span{
   height:200px;
   margin-bottom: 10px;
   margin-right: 25px;
+}
+
+#locations{
+  height: 500px;
+  width:1200px;
+  margin: auto;
+  background-image: url("./images/img-locations-background.jpg");
+  position:relative;
+  top:69px;
+  text-align: center;
+}
+
+#locations h2{
+  padding-top:80px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+}
+
+.location-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height:300px;
+  background-color: black;
+  text-align: center;
+  margin-right: 40px;
+  opacity: 1:
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  height:200px;
+  position:relative;
+  top:69px;
 }
